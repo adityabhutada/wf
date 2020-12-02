@@ -1,74 +1,426 @@
-<html>
-<head>
-    <title>
-        🤵🏻 My Portfolio
-    </title>
-        <meta charset="utf-8">
-        <meta content="IE=edge" http-equiv="X-UA-Compatible">
-        <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
-        <link href="style.css" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/15b7c21492.js"></script>
-</head>
-<body>
-<nav id="navbar" class="navbar">
-    <ul>
-      <li>
-        <a href="#welcome-section">Home</a>
-      </li>
-      <li>
-        <a href="#projects">My Work</a>
-      </li>
-      <li>
-        <a href="#contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
-  
-  <section id="welcome-section" class="welcome-section">
-    <img src="https://media.giphy.com/media/l0EoBBFIUg5t8kKw8/giphy.gif" alt="" aria-hidden="true" class="welcome-section__image">
-    <div class="welcome-section__info-container">
-      <h1 class="welcome-section__title">Hey I am <span class="welcome-section__name">Aditya</span></h1>
-      <p class="welcome-section__description">a web developer 👨🏻‍💻</p>
-    </div>
-  </section>
-  
-  <section id="projects" class="projects-section">
-  
-    <img src="https://media.giphy.com/media/xUA7b2S4vBP2Ivx8ek/giphy.gif" alt=" " aria-hidden="true" class="projects-section__image">
-    <h2 class="projects-section__title">These are some of my <span class="projects-section__outstanding">projects</span></h2>
-  
-    <div class="projects-section__works-container">
-      <a href="https://www.adityabhutada.com" target="_blank" class="project-tile projects-section__link">
-        My Portfolio
-      </a>
-      <a href="https://shahrukhblogs.netlify.app" target="_blank" class="project-tile projects-section__link">
-        A photography gallery
-      </a>
-      <a href="https://dextermaxinterior.in" target="_blank" class="project-tile projects-section__link">
-        A landing page
-      </a>
-      <a href="https://shopallmart.co" target="_blank" class="project-tile projects-section__link">
-        E-com (in development)
-      </a>
-    </div>
-  </section>
-  
-  <section id="contact" class="contact-section">
-  
-    <img src="https://media.giphy.com/media/l0Ex8vujsc51SVuMM/giphy.gif" alt=" " aria-hidden="true" class="contact-section__image">
-  
-    <header class="contact-section__header">
-      <h2 class="contact-section__title">Let's work <span class="contact-section__name">together...</span></h2>
-      <p class="contact-section__description">How do you take your coffee? ☕</p>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="QuickTea">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
+    <title>QuickTea</title>
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/quicktea.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel.css">
+
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                    <a href="#" class="logo"><img src="assets/images/logo.png" style="width: 50%;"></a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#welcome" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#about">About Us</a></li>
+                            <li class="scroll-to-section"><a href="#flavours">Flavours</a></li>
+                            <li class="scroll-to-section"><a href="#why">Why QuickTea</a></li>
+                            <li class="submenu">
+                                <a href="javascript:;">More</a>
+                                <ul>
+                                    <li><a href="">Team</a></li>
+                                    <li><a href="">Costing</a></li>
+                                    <li><a href="">Business Case</a></li>
+                                </ul>
+                            </li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
     </header>
-  
-    <div class="contact-section__links">
-      <a href="https://linkedin.com/in/adityabhutada" target="_blank" class="contact-section__link"><i class="fab fa-linkedin" title="Aditya's Linkedin Profile"></i> LinkedIn</a>
-      <a href="https://github.com/adityabhutada" target="_blank" class="contact-section__link"><i class="fab fa-github" title="Aditya's Github Profile"></i> GitHub</a>
-      <a href="https://www.instagram.com/aadicodes" target="_blank" class="contact-section__link"><i class="fab fa-instagram" title="Aditya's Instagram Profile"></i> Instagram</a>
-      <a href="https://t.me/hiaditya" target="_blank" class="contact-section__link"><i class="fab fa-telegram-plane" title="Aditya's Telegram Profile"></i> Telegram</a>
+    <!-- ***** Header Area End ***** -->
+
+
+    <!-- ***** Welcome Area Start ***** -->
+    <div class="welcome-area" id="welcome">
+
+        <!-- ***** Header Text Start ***** -->
+        <div class="header-text">
+            <div class="container">
+                <div class="row">
+                    <div class="left-text col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <h1>Wecome to <strong>QuickTea</strong></h1>
+                        <p>Your healthy alternative to machine tea.</p>
+                        <a href="#about" class="main-button-slider">Find Out More</a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                        <img src="assets/images/quick_tea.png" class="rounded img-fluid d-block mx-auto" alt="First Vector Graphic">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Header Text End ***** -->
     </div>
-  
-  </section>
-</body>
+    <!-- ***** Welcome Area End ***** -->
+
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <img src="assets/images/undraw_Hello.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+                <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
+                    <div class="left-heading">
+                        <h5>Know more about QuickTea</h5>
+                    </div>
+                    <div class="left-text">
+                        <ul>
+                            <li>We are manufacturers and traders of Premix Tea and Coffee</li>
+                            <br>
+                            <li>and have our manufacturing facilities at Shivane, Pune</li>
+                            <br>
+                            <li>We have strong team consisting of Food Technology Engineers and Sales staff</li>
+                            <br>
+                            <li>QuickTea is also a FSSAI registered.</li>
+                            <br>
+                        </ul>
+                        <a href="#about2" class="main-button">Know our costing</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hr"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="about2">
+        <div class="container">
+            <div class="row">
+                <div class="left-text col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix">
+                    <div class="left-heading">
+                        <h5>Costing</h5>
+                    </div>
+                    <h6>Know more about our costing at QuickTea.</h6><br>
+                    <ul>
+                        <li>
+                            <p>We provide flat pricing for all flavours of tea and coffee.</p>
+                        </li>
+                        <li>
+                            <p>We sell single serve tea sachets at Rs. 9 per sachet and coffee at Rs. 10 per sachet. exluding taxes and duties.</p>
+                        </li>
+                        <li>
+                            <p>We also provide accessories like paper cups, sugar, etc. on need basis at an additional cost.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-image col-lg-7 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <img src="assets/images/undraw_done.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+
+    <!-- ***** Features Small Start ***** -->
+    <section class="section" id="flavours">
+        <h2>Flavours</h2>
+        <div class="container">
+            <div class="row">
+                <div class="owl-carousel owl-theme">
+                    <div class="item service-item">
+                        <i><img src="assets/images/masala-qt.png" alt=""></i>
+                        <h5 class="service-title">Masala</h5>
+                    </div>
+                    <div class="item service-item">
+                        <i><img src="assets/images/ginger-qt.png" alt=""></i>
+                        <h5 class="service-title">Ginger</h5>
+                    </div>
+                    <div class="item service-item">
+                        <i><img src="assets/images/lemongrass-qt.png" alt=""></i>
+                        <h5 class="service-title">LemonGrass</h5>
+                    </div>
+                    <div class="item service-item">
+                        <i><img src="assets/images/cardamom-qt.png" alt=""></i>
+                        <h5 class="service-title">Cardamom</h5>
+                    </div>
+                    <div class="item service-item">
+                        <i><img src="assets/images/coffee-qt.png" alt=""></i>
+                        <h5 class="service-title">Coffee</h5>
+                    </div>
+                   <!-- <div class="item service-item">
+                        <div class="icon">
+                            <i><img src="assets/images/service-icon-03.png" alt=""></i>
+                        </div>
+                        <h5 class="service-title">Sixth Box Title</h5>
+                        <p>Ut nibh velit, aliquam vitae pellentesque nec, convallis vitae lacus. Aliquam porttitor urna ut pellentesque.</p>
+                        <a href="#" class="main-button">Detail</a>
+                    </div>
+                    <div class="item service-item">
+                        <div class="icon">
+                            <i><img src="assets/images/service-icon-01.png" alt=""></i>
+                        </div>
+                        <h5 class="service-title">Seventh Title Box</h5>
+                        <p>Sed a consequat velit. Morbi lectus sapien, vestibulum et sapien sit amet, ultrices malesuada odio. Donec non quam.</p>
+                        <a href="#" class="main-button">Read More</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Small End ***** -->
+
+
+    <!-- ***** Frequently Question Start ***** -->
+    <section class="section" id="why">
+        <div class="container">
+            <!-- ***** Section Title Start ***** -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Why Quick Tea?</h2>
+                    </div>
+                </div>
+                <div class="offset-lg-3 col-lg-6">
+                    <div class="section-heading">
+                        <!--<p>Vivamus venenatis eu mi ac mattis. Maecenas ut elementum sapien. Nunc euismod risus ac lobortis congue. Sed erat quam.</p>-->
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Section Title End ***** -->
+
+            <div class="row">
+                <div class="left-text col-lg-6 col-md-6 col-sm-12">
+                    <h5>Find why would you want to choose Quicktea as your alternative to vending machines.</h5>
+                    <div class="accordion-text">
+                        <!--<p>Curabitur placerat diam in risus lobortis, laoreet porttitor est elementum. Nulla ultricies risus quis risus scelerisque, a aliquam tellus maximus. Cras pretium nulla ac convallis iaculis. Aenean bibendum erat vitae odio sodales, in facilisis tellus volutpat.</p>
+                        <p>Sed lobortis pellentesque magna ac congue. Suspendisse quis molestie magna, id eleifend ex. Ut mollis ultricies diam nec dictum. Morbi commodo hendrerit mi vel vulputate. Proin non tincidunt dui. Lorem ipsum dolor sit amet.</p>-->
+                        <span>Email: <a href="mailto:info@quicktea.in">info@quicktea.in</a><br></span>
+                        <a href="#contact-us" class="main-button">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="accordions is-first-expanded">
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Usage</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>Quicktea is packed in airtight and waterproof sachets which are easy to use and carry anywhere.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Servings</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>We serve quicktea as a single serve sachets to maintain consistency of taste and flavour.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Ease of Use</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>There is no hassle to procure and store milk, sugar and other ingredients. 
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Time saviour</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>It requires preparation time of just 10 seconds against lot of time to prepare tea in traditional method.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Better in Taste</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>It tastes phenomenally better than tea and coffee served from existing coffee machines.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Hassle free</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>No hassles of maintaining and cleaning dispensing machines.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Frequently Question End ***** -->
+
+
+    <!-- ***** Contact Us Start ***** -->
+    <section class="section" id="contact-us">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- ***** Contact Map Start ***** -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div id="map">
+                      <!-- How to change your own map point
+                           1. Go to Google Maps
+                           2. Click on your location point
+                           3. Click "Share" and choose "Embed map" tab
+                           4. Copy only URL and paste it within the src="" field below
+                    -->
+                   <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1197183.8373802372!2d-1.9415093691103689!3d6.781986417238027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb96f349e85efd%3A0xb8d1e0b88af1f0f5!2sKumasi+Central+Market!5e0!3m2!1sen!2sth!4v1532967884907" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+                    </div>
+                </div>
+                <!-- ***** Contact Map End ***** -->
+
+                <!-- ***** Contact Form Start ***** -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="contact-form">
+                        <form id="contact" action="" method="post">
+                          <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="name" type="text" id="name" placeholder="Full Name" required="" class="contact-field">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="email" type="text" id="email" placeholder="E-mail" required="" class="contact-field">
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <textarea name="message" rows="6" id="message" placeholder="Your Message" required="" class="contact-field"></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="main-button">Send It</button>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- ***** Contact Form End ***** -->
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us End ***** -->
+
+    
+    <!-- ***** Footer Start ***** -->
+    <!--<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12">
+                    <p class="copyright">Copyright &copy; 2020 Art Factory Company 
+                
+                . Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <ul class="social">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>-->
+    
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+  </body>
 </html>
